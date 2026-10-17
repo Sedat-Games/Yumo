@@ -5,76 +5,58 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Yumo: Destek</title>
 <meta name="description" content="Yumo oyunları için destek ve sık sorulan sorular.">
-<style>
-  :root { --bg:#FFFBF3; --ink:#1E2A4A; --soft:#5A6480; --line:#EFE3CC; --accent:#FFC93C; --card:#FFFFFF; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#141C33; --ink:#FFFBF3; --soft:#B8C0D6; --line:#2A3556; --card:#1E2A4A; } }
-  * { box-sizing:border-box; }
-  body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
-  main { max-width:44rem; margin:0 auto; padding:40px 20px 64px; }
-  header { border-bottom:3px solid var(--accent); padding-bottom:16px; margin-bottom:28px; }
-  h1 { font-size:1.9rem; line-height:1.2; margin:0 0 6px; }
-  h2 { font-size:1.2rem; margin:32px 0 6px; }
-  .meta { color:var(--soft); font-size:.95rem; margin:0; }
-  .box { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:16px 20px; margin:20px 0; }
-  .box p { margin:0; }
-  a { color:inherit; }
-  hr { border:0; border-top:1px solid var(--line); margin:56px 0 0; }
-  footer { color:var(--soft); font-size:.9rem; margin-top:40px; }
-</style>
+<link rel="icon" href="../assets/favicon.png">
+<link rel="stylesheet" href="../assets/site.css">
 </head>
 <body>
-<main>
+<header class="top"><div class="wrap">
+  <a class="brand" href="../" aria-label="Yumo ana sayfa"><img src="../assets/yumo-word.png" alt="yumo" width="96" height="30"></a>
+  <nav aria-label="Site"><a href="../">Oyunlar</a><a href="../destek/" aria-current="page">Destek</a><a href="../gizlilik/">Gizlilik</a></nav>
+</div></header>
+<main><div class="wrap">
 <section id="tr" lang="tr">
-<header>
-  <h1>Yumo: Destek</h1>
-  <p class="meta"><a href="#en">English</a></p>
-</header>
+  <h1>Destek</h1>
+  <p class="lang"><a href="#en">English</a></p>
+  <div class="contact">
+    <img src="../assets/yumo.png" alt="" width="76" height="86">
+    <div>
+      <p><b>Bir sorun mu var ya da bir öneriniz mi?</b> Bize yazın, genellikle 2 iş günü içinde yanıt veririz. Oyunun adını ve cihazınızın modelini eklerseniz daha hızlı yardımcı oluruz.</p>
+      <a class="mail" href="mailto:gocagameapps@gmail.com?subject=Destek">gocagameapps@gmail.com</a>
+    </div>
+  </div>
 
-<div class="box"><p>Bir sorun mu yaşıyorsunuz ya da bir öneriniz mi var? Bize yazın: <a href="mailto:gocagameapps@gmail.com"><b>gocagameapps@gmail.com</b></a>. Genellikle 2 iş günü içinde yanıt veririz. Yazarken oyunun adını ve cihazınızın modelini eklerseniz daha hızlı yardımcı olabiliriz.</p></div>
-
-<h2>Ebeveyn ayarlarını nasıl açarım?</h2>
-<p>Haritanın sağ üstündeki ayar (dişli) düğmesine dokunun, sonra “Basılı tut” düğmesine 3 saniye basılı tutun.</p>
-
-<h2>Sesli okuma çalışmıyor ya da ses gelmiyor.</h2>
-<p>Hikâyeler cihazın kendi Türkçe sesiyle okunur. Cihazın sesinin açık olduğundan ve sessiz modda olmadığından emin olun. Android’de Ayarlar &gt; Erişilebilirlik &gt; Metin okuma (Text-to-speech) bölümünden Türkçe sesin yüklü olduğunu kontrol edin.</p>
-
-<h2>“Sesli oku” düğmesi kayıt yapmıyor.</h2>
-<p>Mikrofon izni verilmemiş olabilir. iPhone ve iPad’de Ayarlar &gt; Pati &gt; Mikrofon, Android’de Ayarlar &gt; Uygulamalar &gt; Pati &gt; İzinler bölümünden açabilirsiniz. Kayıtlar yalnızca cihazınızda saklanır.</p>
-
-<h2>Günlük hatırlatma gelmiyor.</h2>
-<p>Hatırlatmayı ebeveyn ayarlarından açın ve cihaz ayarlarında Pati için bildirimlere izin verin. O gün zaten okunduysa hatırlatma gönderilmez.</p>
-
-<h2>Yeni telefona geçtim, ilerleme taşınır mı?</h2>
-<p>Hesap olmadığı ve veri toplanmadığı için ilerleme yalnızca o cihazda saklanır, başka bir cihaza taşınmaz. Satın alımınız ise aynı Apple Kimliği ya da Google hesabıyla yeni cihaza ücretsiz indirilebilir.</p>
-
-<h2>Bir kardeş de oynayabilir mi?</h2>
-<p>Evet. “Bugün kim okuyor?” ekranından yeni okur ekleyebilirsiniz; her okurun adaları ve çıkartmaları ayrıdır.</p>
-
-<h2>İlerlemeyi nasıl sıfırlarım?</h2>
-<p>Ebeveyn ayarlarındaki “Kaydı sıfırla” ile. Bu işlem geri alınamaz.</p>
-
-<p><a href="../gizlilik/">Gizlilik politikası</a></p>
+  <div class="app" id="pati"><img src="../assets/pati-icon.png" alt="" width="52" height="52"><div><b>Pati ile Okuduğunu Anlama</b><span>Sık sorulan sorular</span></div></div>
+  <details><summary>Ebeveyn ayarlarını nasıl açarım?</summary><p>Haritanın sağ üstündeki ayar (dişli) düğmesine dokunun, sonra “Basılı tut” düğmesine 3 saniye basılı tutun.</p></details>
+  <details><summary>Hikâyeler sesli okunmuyor ya da ses gelmiyor.</summary><p>Hikâyeler cihazın kendi Türkçe sesiyle okunur. Cihazın sesinin açık olduğundan ve sessiz modda olmadığından emin olun. Android’de Ayarlar &gt; Erişilebilirlik &gt; Metin okuma bölümünden Türkçe sesin yüklü olduğunu kontrol edin.</p></details>
+  <details><summary>“Sesli oku” düğmesi kayıt yapmıyor.</summary><p>Mikrofon izni kapalı olabilir. iPhone ve iPad’de Ayarlar &gt; Pati &gt; Mikrofon, Android’de Ayarlar &gt; Uygulamalar &gt; Pati &gt; İzinler bölümünden açabilirsiniz. Kayıtlar yalnızca cihazınızda saklanır.</p></details>
+  <details><summary>Günlük hatırlatma gelmiyor.</summary><p>Hatırlatmayı ebeveyn ayarlarından açın ve cihaz ayarlarında Pati için bildirimlere izin verin. O gün zaten okunduysa hatırlatma gönderilmez.</p></details>
+  <details><summary>Yeni cihaza geçtim, ilerleme taşınır mı?</summary><p>Hesap olmadığı ve veri toplanmadığı için ilerleme yalnızca o cihazda saklanır, başka cihaza taşınmaz. Satın alımınızı aynı Apple Kimliği ya da Google hesabıyla yeni cihaza ücretsiz indirebilirsiniz.</p></details>
+  <details><summary>Bir kardeş de oynayabilir mi?</summary><p>Evet. “Bugün kim okuyor?” ekranından yeni okur ekleyebilirsiniz. Her okurun adaları ve çıkartmaları ayrıdır.</p></details>
+  <details><summary>İlerlemeyi nasıl sıfırlarım?</summary><p>Ebeveyn ayarlarındaki “Kaydı sıfırla” ile. Bu işlem geri alınamaz.</p></details>
 </section>
 
 <hr>
 
 <section id="en" lang="en">
-<header>
-  <h1>Yumo: Support</h1>
-  <p class="meta"><a href="#tr">Türkçe</a></p>
-</header>
-<div class="box"><p>Having a problem or have a suggestion? Write to us at <a href="mailto:gocagameapps@gmail.com"><b>gocagameapps@gmail.com</b></a>. We usually reply within 2 business days. Please include the game’s name and your device model.</p></div>
-<h2>How do I open the parent settings?</h2>
-<p>Tap the gear button at the top right of the map, then press and hold “Basılı tut” for 3 seconds.</p>
-<h2>Read-aloud has no sound.</h2>
-<p>Stories are read with the device’s built-in Turkish voice. Check that the volume is up and silent mode is off. On Android, make sure a Turkish voice is installed under Settings &gt; Accessibility &gt; Text-to-speech.</p>
-<h2>“Sesli oku” does not record.</h2>
-<p>Microphone permission may be off. Turn it on in the device settings for the app. Recordings stay on your device.</p>
-<h2>Will progress move to a new phone?</h2>
-<p>There are no accounts and no data is collected, so progress stays on the device it was made on. Your purchase can be downloaded again for free with the same Apple ID or Google account.</p>
-<p><a href="../gizlilik/">Privacy policy</a></p>
+  <h1>Support</h1>
+  <p class="lang"><a href="#tr">Türkçe</a></p>
+  <div class="contact">
+    <img src="../assets/yumo.png" alt="" width="76" height="86">
+    <div>
+      <p><b>Having a problem or have a suggestion?</b> Write to us, we usually reply within 2 business days. Please include the game’s name and your device model.</p>
+      <a class="mail" href="mailto:gocagameapps@gmail.com?subject=Support">gocagameapps@gmail.com</a>
+    </div>
+  </div>
+  <div class="app"><img src="../assets/pati-icon.png" alt="" width="52" height="52"><div><b>Pati ile Okuduğunu Anlama</b><span>Frequently asked questions</span></div></div>
+  <details><summary>How do I open the parent settings?</summary><p>Tap the gear button at the top right of the map, then press and hold “Basılı tut” for 3 seconds.</p></details>
+  <details><summary>Stories are not read aloud.</summary><p>Stories use the device’s built-in Turkish voice. Check the volume and silent mode. On Android, make sure a Turkish voice is installed under Settings &gt; Accessibility &gt; Text-to-speech.</p></details>
+  <details><summary>“Sesli oku” does not record.</summary><p>Microphone permission may be off; turn it on in the device settings for the app. Recordings stay on your device.</p></details>
+  <details><summary>Will progress move to a new device?</summary><p>There are no accounts and no data is collected, so progress stays on the device. You can download your purchase again for free with the same Apple ID or Google account.</p></details>
 </section>
-<footer>Yumo</footer>
-</main>
+</div></main>
+<footer><div class="wrap">
+  <span>© 2026 Yumo</span>
+  <span><a href="../destek/">Destek</a><a href="../gizlilik/">Gizlilik</a><a href="mailto:gocagameapps@gmail.com">gocagameapps@gmail.com</a></span>
+</div></footer>
 </body>
 </html>
